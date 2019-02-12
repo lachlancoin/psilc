@@ -1,0 +1,79 @@
+REQUIREMENTS:  java 1.4.x or higher (run on java1.4.2_05, not tested on other versions)
+
+
+
+USAGE:
+
+java -Xmx300m -jar psilc.jar --fasta seed.dna.fa 
+
+or 
+
+java -Xmx300m -jar psilc.jar --fasta seed.dna.mfa 
+
+This will create an alignment called seed.dna.mfa (using muscle).  You can supply your own
+seed.dna.mfa if you want PSILC to use your own alignment (in FASTA format).  Otherwise it will use MUSCLE.  
+
+It will also create a tree called seed.nhx.  Again if you supply your own (in nh or nhx format), this will be used.  Otherwise the
+tree is created using phyml. If it can't find phyml, it will create a neighbour joining tree using ml distances under a WAG rate
+matrix with 4 gamma rates.
+
+
+
+With  the following optional parameters
+	--color [pseudo|selection]  whether to colour and label the branches according to pseudo gene or selection index
+
+ 	--seq < sequence identifier to score >
+
+		 if this is not specified, all leaf nodes are scored as default.  You must also specify --restrict 1
+
+	--repository <directory which contains the "Pfam_ls" file, and/or a directory called Pfam, containg Pfam HMMs >
+		if this is not specified, then the directory "." is used.
+		The "Pfam_ls" file is downloadable from 
+   			ftp://ftp.sanger.ac.uk/pub/databases/Pfam/Pfam_ls.gz
+    		    It is a flatfile of the hidden markov models used by Pfam.	You can build your own using HMMER.
+
+	--bin <bin_directory1:bin_directory2>
+	     all specified directories will be searched for the binaries "muscle", "phyml".  If these binaries are in your CLASSPATH then you don't
+		need to specify this flag.
+
+	--graph [0|1] - whether or not to display a graphical view of the
+	results.  If this flag is set to one, then a tree is displayed of the
+	alignment, and the user can (by clicking on the nodes) bring up a
+	graph of the position by position PSILC scores, as well as the
+	posterior probabilities of being in a pseudogene/selected/ normal
+	state.
+
+	--allNodes [0|1] - if this flag is set to one all nodes (including internal nodes) are scored. 
+
+	--nucrm  [HKY, GTR, TN] - the nucleotide rate matrix to use (default HKY)
+
+	--protrm [WAG, JTT] - the protein rate matrix to use (default WAG)
+
+
+It may be necessary to enable java to access extra memory, by running, for instance
+
+java -Xmx200m psilc.jar
+
+During the first run, and Pfam_ls_idx file will be created to index
+the Pfam_ls file.  This step will be skipped on future runs, providing
+the Pfam_ls_idx file is in the right directory.
+
+
+Both alignment and fasta inputs must contain DNA sequences.  
+
+
+
+
+
+
+
+
+
+OUTPUT:
+
+"PSILC_WAG_HKY" - this contains the PSILC results (assuming a WAG model of protein evolution and an HKY model of DNA evolution,
+which can be changed using --protrm and --nucrm flags (see above).
+
+Source:
+
+The source is available on request, email lc1@sanger.ac.uk

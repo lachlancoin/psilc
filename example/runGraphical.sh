@@ -1,0 +1,1 @@
+/usr/java/j2sdk1.4.2_05/bin/java -Xmx400m -cp ../psilc.jar lc1.treefam.TreeCurationTool 

@@ -1,0 +1,22 @@
+/PfamDB.java/1.10/Sun Jul 25 15:01:53 2004//
+/PfamAlphabet.java/1.11/Wed Jul 28 09:29:19 2004//
+/DomainAlphabet.java/1.8/Sun Jul 25 15:01:53 2004//
+/EnsemblUtilities.java/1.4/Sun Jul 25 15:01:53 2004//
+/IDLogger.java/1.7/Sun Jul 25 15:01:53 2004//
+/LoadDriver.java/1.3/Sun Jul 25 15:01:53 2004//
+/PfamAlignmentParser.java/1.14/Sun Jul 25 15:01:53 2004//
+/PfamSqlRead.java/1.4/Sun Jul 25 15:01:53 2004//
+/PfamSqlWrite.java/1.5/Sun Jul 25 15:01:53 2004//
+/ProteinComparator.java/1.5/Sun Jul 25 15:01:53 2004//
+/ProteinDB.java/1.6/Sun Jul 25 15:01:53 2004//
+/SpeciesAlphabet.java/1.7/Sun Jul 25 15:01:53 2004//
+/SpeciesPfamDB.java/1.5/Sun Jul 25 15:01:53 2004//
+/SqlPfamDB.java/1.7/Sun Jul 25 15:01:53 2004//
+/TiedSequenceIterator.java/1.2/Sun Jul 25 15:01:53 2004//
+/DomainArchitecture.java/1.1/Thu Aug 12 14:30:22 2004//
+/ExtractPfamFiles.java/1.1/Thu Aug 12 14:30:23 2004//
+/PfamSqlBase.java/1.5/Thu Aug 12 15:33:20 2004//
+/SqlTools.java/1.6/Thu Aug 12 15:44:43 2004//
+/IndexedPfamDB.java/1.23/Thu Aug 19 11:35:08 2004//
+/PfamIndex.java/1.1/Thu Aug 19 10:39:09 2004//
+D

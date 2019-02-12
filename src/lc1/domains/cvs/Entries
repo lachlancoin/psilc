@@ -1,0 +1,26 @@
+/AssocCount.java/1.4/Wed Jul 21 10:39:55 2004//
+/ContextTransitionScores.java/1.3/Wed Jul 21 10:39:55 2004//
+/DomainDP.java/1.5/Wed Jul 21 10:39:55 2004//
+/DomainDPFactory.java/1.6/Wed Jul 21 10:39:56 2004//
+/Frequency.java/1.6/Wed Jul 21 10:39:56 2004//
+/Interpolation.java/1.4/Wed Jul 21 10:39:56 2004//
+/LSDomainDP.java/1.5/Wed Jul 21 10:39:56 2004//
+/NDigram.java/1.4/Wed Jul 21 10:39:56 2004//
+/Ngram.java/1.4/Wed Jul 21 10:39:56 2004//
+/Pointer.java/1.4/Wed Jul 21 10:39:56 2004//
+/ProteinScore.java/1.3/Wed Jul 21 10:39:56 2004//
+/Pseudocount.java/1.4/Wed Jul 21 10:39:56 2004//
+/Smoothing.java/1.6/Wed Jul 21 10:39:56 2004//
+/SpeciesScores.java/1.4/Wed Jul 21 10:39:56 2004//
+/TransitionScores.java/1.3/Wed Jul 21 10:39:56 2004//
+/AbstractDomainDP.java/1.7/Thu Jul 22 12:05:09 2004//
+/CancerCount.java/1.24/Thu Jul 22 12:17:23 2004//
+/ContextCount.java/1.10/Thu Jul 22 12:06:25 2004//
+/DomainDPManager.java/1.7/Thu Jul 22 11:57:55 2004//
+/DomainDistanceMatrix.java/1.11/Thu Jul 22 11:57:56 2004//
+/SpeciesCount.java/1.7/Thu Jul 22 11:57:53 2004//
+/SpeciesDP.java/1.7/Thu Jul 22 11:58:00 2004//
+/TransitionScoresFactory.java/1.6/Thu Jul 22 10:49:49 2004//
+/DPParamsParser.java/1.10/Mon Jul 26 16:30:16 2004//
+/Manager.java/1.29/Thu Aug 19 11:35:06 2004//
+D
